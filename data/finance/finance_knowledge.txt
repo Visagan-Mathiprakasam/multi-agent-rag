@@ -1,0 +1,55 @@
+Investment Risk Analysis
+
+Investment risk refers to the possibility of losing some or all of the original investment. Understanding and evaluating risk is fundamental to sound financial decision-making.
+
+Types of Investment Risk:
+
+1. Market Risk: The risk of losses due to factors that affect the overall performance of financial markets. This includes equity risk (stock price fluctuations), interest rate risk (changes in interest rates affecting bond prices), and currency risk (exchange rate fluctuations).
+
+2. Credit Risk: The risk that a borrower will default on their obligations. This is particularly relevant for bonds and lending instruments. Credit ratings from agencies help assess this risk.
+
+3. Liquidity Risk: The risk of being unable to sell an investment quickly at a fair price. Real estate and certain bonds may have higher liquidity risk compared to publicly traded stocks.
+
+4. Inflation Risk: The risk that inflation will erode the purchasing power of investment returns. Fixed-income investments are particularly vulnerable to inflation risk.
+
+5. Concentration Risk: The risk from having too much investment in a single asset, sector, or geography. Diversification is the primary strategy to mitigate concentration risk.
+
+Risk Assessment Factors:
+
+- Time Horizon: Longer investment horizons generally allow for greater risk tolerance, as there is more time to recover from market downturns.
+- Financial Goals: The specific objective (retirement, education, emergency fund) influences acceptable risk levels.
+- Income Stability: Investors with stable incomes may tolerate higher risk compared to those with variable income.
+- Existing Portfolio: Current asset allocation and diversification status affect how much additional risk is appropriate.
+- Risk Capacity vs. Risk Tolerance: Risk capacity is the financial ability to absorb losses, while risk tolerance is the psychological comfort with risk.
+
+Financial Planning Basics
+
+Effective financial planning involves several key steps:
+
+1. Budgeting: Track income and expenses to understand cash flow. The 50/30/20 rule suggests allocating 50% for needs, 30% for wants, and 20% for savings and debt repayment.
+
+2. Emergency Fund: Maintain 3-6 months of living expenses in a readily accessible account to handle unexpected financial emergencies.
+
+3. Debt Management: Prioritize paying off high-interest debt. Consider the avalanche method (highest interest first) or snowball method (smallest balance first).
+
+4. Investment Strategy: Diversify investments across asset classes (stocks, bonds, real estate) based on risk tolerance and time horizon.
+
+5. Insurance: Adequate insurance coverage (health, life, property) protects against catastrophic financial losses.
+
+6. Retirement Planning: Start early to benefit from compound interest. Contribute to retirement accounts regularly and increase contributions over time.
+
+Cost-Benefit Analysis
+
+Cost-benefit analysis (CBA) is a systematic approach to estimating the strengths and weaknesses of alternatives. Key steps include:
+
+- Identify all costs (direct, indirect, opportunity costs)
+- Identify all benefits (tangible, intangible, short-term, long-term)
+- Assign monetary values where possible
+- Calculate net benefit = total benefits - total costs
+- Consider the time value of money using discount rates
+- Perform sensitivity analysis to test assumptions
+
+For business financial decisions, ROI (Return on Investment) is calculated as:
+ROI = (Net Profit / Cost of Investment) x 100%
+
+A positive ROI indicates a profitable investment, while negative ROI suggests a loss.
