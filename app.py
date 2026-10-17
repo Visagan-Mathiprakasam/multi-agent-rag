@@ -61,29 +61,29 @@ def render_sidebar():
             if not or_key:
                 st.error("Enter your OpenRouter key first.")
             else:
-                test_model = os.getenv("ACTIVE_LLM_MODEL", "openrouter/free")
-                with st.spinner(f"Testing {test_model}..."):
+                # Always validate against openrouter/free — never a paid model
+                # This ensures the key check works regardless of which model is selected
+                with st.spinner("Validating key with openrouter/free..."):
                     try:
                         from openai import OpenAI as _OAI
                         _c = _OAI(api_key=or_key, base_url="https://openrouter.ai/api/v1")
                         _r = _c.chat.completions.create(
-                            model=test_model,
+                            model="openrouter/free",
                             messages=[{"role": "user", "content": "Reply with just: OK"}],
                             extra_headers={"HTTP-Referer": "http://localhost:8501", "X-Title": "Multi-Agent RAG"}
                         )
                         if _r.choices:
                             st.session_state["api_key_valid"] = True
-                            st.success(f"✅ Connected to {test_model}!")
+                            active = os.getenv("ACTIVE_LLM_MODEL", "openrouter/free")
+                            st.success(f"✅ Key valid! Using model: {active}")
                         else:
                             st.session_state["api_key_valid"] = False
                             st.error("No response received.")
                     except Exception as _e:
                         st.session_state["api_key_valid"] = False
                         err = str(_e)
-                        if "401" in err or "invalid" in err.lower():
-                            st.error("❌ Invalid API key.")
-                        elif "unavailable for free" in err.lower() or "404" in err:
-                            st.error(f"❌ Model '{test_model}' is not free or unavailable. Please select 'openrouter/free' from the dropdown below.")
+                        if "401" in err or "User not found" in err or "invalid" in err.lower():
+                            st.error("❌ Invalid API key — please get a fresh key from openrouter.ai/keys")
                         else:
                             st.error(f"❌ {err[:200]}")
 

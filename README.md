@@ -127,20 +127,29 @@ Run the evaluation script to compare Basic RAG vs. Adaptive Multi-Agent RAG:
 python evaluation/evaluate.py
 ```
 
+## 📑 Project Reports & Academic Documentation
+
+- 📘 **[Complete Full Bound Report (73 Pages)](Self_Adaptive_MultiAgent_RAG_Complete_Full_Report.pdf)**: Complete academic report bound with official preliminary pages, 100% unique plagiarism certificate, and Chapters 1 to 10 matching department guidelines.
+- 📄 **[Core Academic Report (62 Pages)](Self_Adaptive_MultiAgent_RAG_Report_Reference_Matched.pdf)**: Reference-matched report containing comprehensive system analysis, architectural diagrams, DFDs, implementation details, testing records, and benchmarking.
+- 📋 **[Official Preliminary Pages (11 Pages)](Self_Adaptive_MultiAgent_RAG_Preliminary_Pages.pdf)**: Standalone front matter matching department standards (Title page, Bonafide certificate, Acknowledgement, Table of Contents, Abstract, Plagiarism Certificate, List of Tables, List of Figures).
+- ⚡ **[Master Viva Defense Cheatsheet (5 Pages)](Self_Adaptive_MultiAgent_RAG_Cheatsheet.pdf)**: High-density quick-revision guide covering the 30-second viva pitch, LangGraph lifecycle, mathematical confidence formulas, codebase map, empirical benchmarks, and top 12 viva questions & model answers.
+
 ## 🛠️ Tech Stack
 
 | Component | Technology |
 |---|---|
 | Frontend | Streamlit |
-| LLM | Google Gemini (gemini-2.0-flash) |
-| Embeddings | Sentence Transformers (all-MiniLM-L6-v2) |
-| Vector Database | ChromaDB |
-| Agent Orchestration | LangGraph |
+| LLM Inference | OpenRouter (`openrouter/free` router, Gemma 4, Nemotron 3.5, Llama) & Google Gemini |
+| Embeddings | Sentence Transformers (`all-MiniLM-L6-v2`, 384-dimensional dense vectors) |
+| Vector Database | ChromaDB (Local persistent HNSW index) |
+| Agent Orchestration | LangGraph (`StateGraph` stateful cyclic orchestration) |
 | RAG Utilities | LangChain |
+| Web Search Fallback | DuckDuckGo Search API (`duckduckgo-search`) |
 | Document Loading | PyPDF, LangChain loaders |
 
 ## ⚠️ Disclaimers
 
 - **Healthcare**: This system provides general health information only. It is NOT a substitute for professional medical advice.
 - **Finance**: Financial information is for educational purposes. Consult a qualified financial advisor for specific decisions.
-- This is an academic mini-project prototype and not intended for production use.
+- This is an academic project prototype developed for the MCA Degree at SRM Institute of Science & Technology.
+

@@ -42,6 +42,7 @@ logs/
 make_pdf.py
 generate_overview_pdf.py
 Multi_Agent_RAG_Project_Overview.pdf
+scratch/
 *.tmp
 
 # === Test artifacts ===
